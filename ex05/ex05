@@ -1,0 +1,13 @@
+char *ft_strupcase(char *str)
+{
+     int y = 0;
+     char *new;
+
+     while(str[y] != '\0')
+     {
+     str[y] = toupper(str[y]);
+     y++;
+     }
+	 return str;
+}
+

@@ -1,0 +1,20 @@
+char *ft_strstr(char *str, char *to_find)
+{
+        int t = 0;
+     
+
+	       while(str[t] != '\0')
+	   {
+           if(str[t] == *to_find)
+		   {
+			   break;
+		   }else
+		   {
+
+              return 0;
+		   }   
+		      t++;
+	   }
+    
+	   return to_find;
+}
